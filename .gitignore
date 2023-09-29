@@ -1,0 +1,38 @@
+# .gitignore
+
+# Python related
+__pycache__/
+*.py[cod]
+*.env
+*.venv
+*.egg-info/
+dist/
+build/
+
+# Flask instance folder
+instance/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node/NPM related
+node_modules/
+dist/
+.npm
+.vite/
+
+# Logs
+*.log
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
